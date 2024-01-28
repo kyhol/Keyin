@@ -1,0 +1,203 @@
+/*Add a style sheetfor the page –assign an appropriate background color for the body andcreate abox with a width of 1000px and a border –the background color of the box will be white.Set up styles for headings, text,lists, etc.  Also include at least 3 classes and assign the classes to a word / words/  or  phrase  within  the  page–make them  obvious.Add  a  class  for  one of thesections  and apply it to the tag for that section.  Make sure that allthe colors used complement each other. ISSUE THE END */ 
+/*ISSUE THE END of above*/
+/* Add the following navigation to the top of the pageafter the main heading.  Also include at least 3 links in thebody of your page –find a site and include it –make sure these appear on a new tab.  Finally  include  a  Top  of Page  link  at  the  end of  your document.   Note that the  separator between the links is not fancy –just two :’s. */
+
+/* */
+/* */
+/* */
+
+body{
+    background: linear-gradient(to left,rgb(65, 3, 3), black,rgb(65, 3, 3));
+    margin-right: 100px;
+    margin-left: 100px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    
+}
+
+nav{
+    color:black;
+    text-align: center;
+    font-family: Lato;
+    font-size: 20pt;
+}
+.box1 {
+    width:1000px;
+    border: 3px solid red; /*Color speaks: You're so pretty */
+    background-color: white; /* so are you! */ 
+    padding: 4px;
+    border-left: 50px;
+    border-right: 50px;
+}
+.box2,.box3 {
+    display: flex; 
+    align-items: center; 
+    justify-content: space-between; 
+  }
+ 
+.box3 img{
+    display: inline-block; 
+    margin: 10px; 
+    width: auto;
+    height: 200px;
+}
+.box3 div{
+    display: inline-block; 
+    margin: 10px; 
+    width: auto;
+    height: 200px;
+}
+.box4 img{
+    display: inline-block; 
+    margin-left: 10px;
+    width: auto;
+    height: 200px;
+    transform: scaleX(-1);
+}
+.fixtext {
+    width: 50%; 
+    text-align: center; 
+  }
+header {
+    font-family: "Comic Sans MS";
+    font-size: 26pt;
+    color:darkred;
+    font-weight: 700;
+    line-height: 120%;
+    text-indent: 30px;
+}
+
+h3 {
+    font-family: 'Calibri';
+    color:firebrick;
+    font-size: 24pt;
+    text-align: center;
+    font-weight: 600;
+}
+p{
+    color: black;
+    font-family: 'Ariel Black';
+    font-size: 20pt;
+
+}
+
+li, ul {
+    color: black;
+    font-family: Verdana;
+    font-size: 17pt;
+}
+.section1{ 
+    color:black
+
+}
+a {
+    text-decoration: none;
+}
+/*Place apictureafter the  first paragraph–above  the  second  heading–thispicturewill be at  least 600px wide andcentered across the page. */
+.image1{
+    width: 600px;
+    height: 400px;
+    padding: 5px;
+}   
+.image2{
+    width: 25%;
+    height: 310px;
+    float:left;
+    padding: 5px;
+}
+.image3{
+    width: 25%;
+    height: 310px;
+    float:right;
+    padding: 5px;
+   
+}
+.authortext{
+    font-size: 14pt;
+}
+/* Add two pictures within the text –one inthe Great Computer Quotessection(aligned left) and one in the section you added(aligned right). */
+.align{
+    text-align: justify;
+}
+.center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+}
+.BoldItalUnderline{
+    font-style: italic;
+    font-weight: 700;
+    text-decoration: underline;
+    color:crimson;
+}
+
+.Crimson{
+    color:crimson;
+    font-weight: 700;
+}
+
+
+.GreenItal{
+    color: green;
+    font-weight: 700;
+    font-style: italic;
+
+}
+
+.QuoteStyle{ 
+    color: rgba(0, 0, 0, 0.411);
+    font-family: 'Trebuchet MS';
+    font-style: italic;
+    font-weight: 600;
+    font-size: 16pt;
+}
+a:link{
+    color:blue;
+    text-decoration: none;
+    
+}
+a:hover{
+    color:darkblue;
+    text-decoration: underline;
+}
+a:visited{
+    color:blueviolet;
+    text-decoration: none;
+}
+/* The styles are classes - and can be applied to any tag or <span> */
+.ItText {
+    font-style: italic;
+  }
+  
+.BlueBoldText {
+    color: blue;
+    font-weight: 700;
+  }
+footer{
+    font-size: 15pt;
+}
+/*Copy Paste Reference*/
+
+/* */
+
+/* The styles are classes - and can be applied to any tag or <span> */
+
+.animated-box {
+    width: 1000px;
+    height: 100px;
+    background-color:rgb(163, 42, 28);
+    opacity: 2;
+    animation: fadeIn 10s ease-out forwards; 
+    color:white
+
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 5;
+    }
+}

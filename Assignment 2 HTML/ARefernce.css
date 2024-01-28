@@ -1,0 +1,59 @@
+/* These styles are applied to the tags 
+in the html document that match. */
+body {
+  background: linear-gradient(to right, orange, red);
+}
+
+h3 {
+  font-family: "Comic Sans MS";
+  color: red;
+}
+
+p,
+li {
+  font-family: "Arial Black";
+  font-size: 12pt;
+  color: white;
+  font-weight: 700;
+  line-height: 120%;
+  text-indent: 30px;
+}
+
+/* The styles are classes - and can be applied to any tag or <span> */
+.ItText {
+  font-style: italic;
+}
+
+.BlueBoldText {
+  color: blue;
+  font-weight: 700;
+}
+
+/* This style creates a box.  You need to go back to the html
+document and add a <div> tag around the text you want to
+appear inside the box */
+.Main {
+  width: 1000px;
+  background-color: black;
+  border: 3px solid red;
+  padding: 30px;
+  text-align: left;
+}
+
+/* You can also create a style for the links. */
+a:link {
+  font-size: 16pt;
+  color: blue;
+  text-decoration: none;
+}
+
+a:visited {
+  font-size: 16pt;
+  color: blue;
+  text-decoration: none;
+}
+
+a:hover {
+  background-color: blue;
+  color: white;
+}

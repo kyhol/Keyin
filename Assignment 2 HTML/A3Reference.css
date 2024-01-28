@@ -1,0 +1,58 @@
+/*Create a box for the main content of the body with a background color of Green, a 4px border 
+with a color of black, and a padding of 15px. A background image has been saved as BImage1.jpg 
+and will be tiled on the entire document. Margins for the entire document will be 50 pixels. Text 
+in all paragraphs will be Times New Roman with a text color of black and a size of 14 pt. The 
+paragraphs will have the first line indented 30 pixels. This document has many quotes so set up 
+a second paragraph style that will be indented from both sides, appear in Italics, and have a size 
+of 12 pt. All headings will have a font family of Helvetica and a color of Green. All links will be 
+Red and underlined, and a hover will cause the link to turn blue with no text decoration. Add one 
+more style to your page with a comment describing it. */
+
+.box {
+    width: 1500px;
+    background-color: green;
+    border: 4px;
+    color:black;
+    padding:15px;
+    text-align:left;
+}
+
+main {
+    margin: 50px;
+}
+
+p {
+    font-family: "New Times Roman";
+    margin-top: 30px;
+    color: black;
+}
+
+p {
+    text-indent: 5%;
+    font-style: italic;
+    font-size: 12pt;
+
+}
+h3 { 
+    font-family: Helvetica;
+    color:green
+
+}
+a{
+    color: red;
+    text-decoration: underline;
+
+}
+a:hover {
+    color:lightblue;
+    text-decoration:none
+}
+/*Create a box for the main content of the body with a background color of Green, a 4px border 
+with a color of black, and a padding of 15px. A background image has been saved as BImage1.jpg 
+and will be tiled on the entire document. Margins for the entire document will be 50 pixels. Text 
+in all paragraphs will be Times New Roman with a text color of black and a size of 14 pt. The 
+paragraphs will have the first line indented 30 pixels. This document has many quotes so set up 
+a second paragraph style that will be indented from both sides, appear in Italics, and have a size 
+of 12 pt. All headings will have a font family of Helvetica and a color of Green. All links will be 
+Red and underlined, and a hover will cause the link to turn blue with no text decoration. Add one 
+more style to your page with a comment describing it. */

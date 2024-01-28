@@ -1,0 +1,58 @@
+/* The background color of the document will be Silver, and the text color will be Blue. The margins 
+will be approximately 1 inch from the left and right. All headings will be Red with a font family of 
+Times. Paragraphs will have a font family of Helvetica or Calibri, and a size of 12 pt. All links will 
+appear blue and underlined (set link and visited the same) and will reverse video when the mouse 
+hovers over it (blue background and silver text with no text decoration). Add one more style to 
+your page with a comment describing it. */
+
+body {
+    background-color: silver;
+    color: blue;
+    margin-left: 100pt;
+    margin-right: 100pt;    
+}
+h3{
+    font-family: Times;
+    color:red
+     
+}
+p{
+    font: size 12pt;
+    font-family: Helvetica
+    
+}
+
+a:link{
+    color:blue;
+    text-decoration:underline;
+    
+}
+a:hover{
+    color: blue;
+}
+a:visited{
+    color:blue
+}
+.typewriter-h3{
+    overflow: hidden; /* Ensures the content is not revealed until the animation */
+    border-right: .15em solid orange; /* The typwriter cursor */
+    white-space: nowrap; /* Keeps the content on a single line */
+    margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+    letter-spacing: .15em; /* Adjust as needed */
+    animation: 
+      typing 3.5s steps(40, end),
+      blink-caret .75s step-end infinite;
+  }
+  
+  /* The typing effect */
+  @keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+  }
+  
+  /* The typewriter cursor effect */
+  @keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: orange; }
+  /*added a cool typewriter effect to the h3 title*/
+  }

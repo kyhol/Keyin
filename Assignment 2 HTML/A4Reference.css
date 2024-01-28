@@ -1,0 +1,72 @@
+/*Create a box for the main content of the body with a background color of your choice with a 
+border and padding. A background image has been saved as BImage1.jpg to tile down the left 
+side of the page only. The remaining document will have a background color gradient from peach 
+to light brown, and a text color of Blue. Since the background image has a width of 150 pixels, set 
+the left margin only to 175px, and all other margins to 50px. Text in all paragraphs will be Calibri 
+with a text color of black and a size of 14pt, and the first line in the paragraph will be indented 
+30px. The first letter of the first word in each paragraph will be gray with a font of MS Sans Serif, 
+and a size of 20pt. This document has many images set up in tables with a caption under each. 
+The captions are to be italic with a size of 6pt, a color of Gray, and centered. All horizontal rules 
+will also have a color of Gray. All headings will have a font family of Times New Roman and a color 
+of Gray. All links will have a color of Gray and underlined. A hover will cause the text to change 
+to Red, with a size of 12pt, bolded, and no text decoration. Add one more style to your page with 
+a comment describing it */
+
+/* goes in main */
+body {
+    background-color: peachpuff;
+    background: linear-gradient(to left, peachpuff,brown);
+    color: blue;
+    
+}
+
+.box{
+    background-color: black;
+    
+    border-left: 50px;
+    border-right: 50px;
+    
+}
+ul, li {
+    text-align: left;
+}
+
+p {
+    font-family: Calibri;
+    color: white;
+    font-size:14pt;
+    }
+
+p::first-letter {
+    color: gray;
+    font-family: "MS Sans Serif";
+    font-size: 20pt
+  }
+p::first-line {
+    text-indent: 30px;
+}
+
+h3{ 
+    font-family: 'Times New Roman';
+    color:gray
+}
+a:hover{
+    color:red;
+    font: size 12pt;
+    font-weight: bold;
+    text-decoration: none;
+}
+/*Create a box for the main content of the body with a background color of your choice with a 
+border and padding. A background image has been saved as BImage1.jpg to tile down the left 
+side of the page only. The remaining document will have a background color gradient from peach 
+to light brown, and a text color of Blue. Since the background image has a width of 150 pixels, set 
+the left margin only to 175px, and all other margins to 50px. Text in all paragraphs will be Calibri 
+with a text color of black and a size of 14pt, and the first line in the paragraph will be indented 
+30px. The first letter of the first word in each paragraph will be gray with a font of MS Sans Serif, 
+and a size of 20pt. This document has many images set up in tables with a caption under each. 
+The captions are to be italic with a size of 6pt, a color of Gray, and centered. All horizontal rules 
+will also have a color of Gray. All headings will have a font family of Times New Roman and a color 
+of Gray. All links will have a color of Gray and underlined. A hover will cause the text to change 
+to Red, with a size of 12pt, bolded, and no text decoration. Add one more style to your page with 
+a comment describing it */
+/* */
